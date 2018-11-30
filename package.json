@@ -1,26 +1,44 @@
 {
-  "name": "",
+  "name": "redux-component-kit",
   "version": "1.0.0",
-  "description": "Fair Weather Friend",
-  "main": "app.js",
+  "description": "Simple starter package for Redux with React and Babel support",
+  "main": "index.js",
+  "repository": "git@github.com:cooper09/redux-components",
   "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "Cooper Smith - Sonya Enterprises",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "*",
-    "flux": "*",
-    "gulp": "*",
-    "reactify": "*",
-    "vinyl-source-stream": "*",
-    "object-assign": "*"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^8.0.0",
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "gulp-connect": "^5.5.0",
+    "jquery": "^2.2.1",
+    "jsdom": "^8.1.0",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^0.14.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "axios": "*",
-    "mocha": "^5.2.0",
-    "react": "*",
-    "react-dom": "*"
+    "babel-preset-stage-1": "^6.1.18",
+    "babel-register": "^6.26.0",
+    "browserify": "^16.1.1",
+    "gulp": "*",
+    "lodash": "^3.10.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.0",
+    "react-router": "^2.0.1",
+    "reactify": "^1.1.1",
+    "redux": "^3.0.4",
+    "vinyl-source-stream": "^2.0.0"
   }
 }

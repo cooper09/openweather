@@ -1,21 +1,25 @@
-# simple react-template
+# ReduxSimpleStarter
 
-A use as-is base template for univeral use. (Is that redundant?)
+Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
-Includes node packages (work with most Node versions up to 8.1.4) 
+###Getting Started###
 
-To build > "npm install"
+There are two methods for getting started with this repo.
 
-To run > "gulp"
+####Familiar with Git?#####
+Checkout this repo, install dependencies, then start the gulp process with the following:
 
-This will use browserfy to build a working version in the "dist" folder. All source java script and css is, of course, under "src"
+```
+	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
+	> cd ReduxSimpleStarter
+	> npm install
+	> npm start
+```
 
-An added little feature is the use of sass to create the css, so be sure to install sass and compass if you really want to blow the styling up and make it responsive using your own custom grid. If not, you can just add whatever css framework you like (bootstrap, foundation, whatever.. )
+####Not Familiar with Git?#####
+Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
-Comes complete with one simple component and a basic flux framework (though no flux components are included (stores, events, constants, etc...)).
-
-I also included an API utility in the utils folder that uses the axios node module to make REST calls, but only for those that already know what they're doing. Its not particularly well documented.
-
-If you have any questions or want to make any contributions, just let me know.
-
-Enjoy!!
+```
+	> npm install
+	> npm start
+```
